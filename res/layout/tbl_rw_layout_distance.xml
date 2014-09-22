@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="horizontal" >
+     			<TextView 
+     			    android:id="@+id/tv_loc_name"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_weight="4"
+                    android:textColor="#565656"                    
+                    />
+
+     			<EditText
+     			    android:id="@+id/et_distance_neighbour"
+     			    android:layout_width="0dp"
+     			    android:layout_height="wrap_content"
+     			    android:layout_weight="3"
+     			    android:background="@drawable/et_bg"
+     			    android:ems="10" >
+    			</EditText>
+
+                 <Spinner 
+                     android:id="@+id/spn_unit"
+                     android:layout_height="wrap_content"
+                     android:layout_width="0dp"
+                     android:layout_weight="4"
+                     android:background="@android:drawable/btn_default"
+                     />
+    
+
+</TableRow>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+     >
+    
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal"
+	    android:weightSum="10"
+	    android:layout_margin="5dp"
+	    >
+	    <TextView 
+	        android:id="@+id/tv_for_add_row_name"
+	        android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="4"
+	        android:textColor="#565656"
+	        android:singleLine="true"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textStyle="bold"
+	        android:text="Location Name"/>
+	    <EditText 
+	        android:id="@+id/et_distance_to_location_name"
+	        android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="6"
+	        android:singleLine="true"
+	        android:background="@drawable/et_bg"
+	        />
+	</LinearLayout>
+</LinearLayout>

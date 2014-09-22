@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeedContracting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="str_owner_info">Owner Information</string>
+    <string name="str_name">Name:</string>
+    <string name="str_address">Address:</string>
+    <string name="str_postal">Postal Code:</string>
+    <string name="str_town">Town:</string>
+    <string name="str_tel">Tel.:</string>
+    <string name="str_mobile">Mobile:</string>
+    <string name="str_email">E-mail:</string>
+    <string name="str_contactperson">Contactperson:</string>
+    <string name="str_address_of_contact">Address of contact:</string>
+    <string name="str_contact_person">Contactpersone</string>
+    <string name="str_next">Next</string>
+    <string name="str_submit">Submit</string>
+    <string name="str_clear">Clear</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >PROPERTY OWNER</item>
+        <item >LOCATION OF PROPERTY</item>
+        <item >DISTANCES</item>
+        <item >ROOMS</item>
+        <item >FACILITIES</item>
+        <item >PRICES</item>
+        <item >BUDGET</item>
+        <item >AVAILABILITY</item>
+        <item >SERVICES</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_communities</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
