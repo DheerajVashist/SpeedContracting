@@ -2,7 +2,8 @@ package com.techila.speedcontracting;
 
 
 
-import info.androidhive.slidingmenu.R;
+import com.techila.speedcontracting.R;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,7 +30,7 @@ public class Splash extends Activity {
 			@Override
 			public void run() {
 				// TODO Auto-generated method stub
-				 Intent intent=new Intent(Splash.this,MainActivity.class);
+				 Intent intent=new Intent(Splash.this,CreateContractActivity.class);
 				    startActivity(intent);
 					overridePendingTransition(R.anim.lefttoright, R.anim.righttoleft);
 				    Splash.this.finish();

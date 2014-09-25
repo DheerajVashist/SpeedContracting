@@ -1,6 +1,7 @@
 package com.techila.speedcontracting;
 
-import info.androidhive.slidingmenu.R;
+import com.techila.speedcontracting.R;
+
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;

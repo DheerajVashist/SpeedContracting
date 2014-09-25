@@ -1,6 +1,7 @@
 package com.techila.speedcontracting;
 
-import info.androidhive.slidingmenu.R;
+import com.techila.speedcontracting.R;
+
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -19,16 +20,8 @@ public class DistanceFragment extends Fragment {
             Bundle savedInstanceState) {
  
         View rootView = inflater.inflate(R.layout.fragment_distance, container, false);
-         TableLayout tl = (TableLayout)rootView.findViewById(R.id.tbl_for_distance_item);
-         if(position==2){
-         ((MainActivity)getActivity()).setTableLayout(rootView);
-         }else if(position==3){
-        	 ((MainActivity)getActivity()).setTableLayoutForRooms(rootView);
-         }else if(position==4){
-        	 ((MainActivity)getActivity()).setTableLayoutForFacility(rootView);
-         }else if(position==5){
-        	 ((MainActivity)getActivity()).setTableLayoutForPrice(rootView);
-         }
+             	((MainActivity)getActivity()).initNewContractView(rootView, position);
+         
         return rootView;
     }
 }

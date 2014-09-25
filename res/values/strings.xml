@@ -17,7 +17,7 @@
     <string name="str_address_of_contact">Address of contact:</string>
     <string name="str_contact_person">Contactpersone</string>
     <string name="str_next">Next</string>
-    <string name="str_submit">Submit</string>
+    <string name="str_save">Save</string>
     <string name="str_clear">Clear</string>
     <!-- Nav Drawer Menu Items -->
     <string-array name="nav_drawer_items">
@@ -27,9 +27,15 @@
         <item >ROOMS</item>
         <item >FACILITIES</item>
         <item >PRICES</item>
-        <item >BUDGET</item>
-        <item >AVAILABILITY</item>
-        <item >SERVICES</item>
+        <item >VIEW/COMFIRT</item>
+        <item >PARKING</item>
+        <item >PLAYGROUND</item>
+        <item>BUILDING MATERIAL</item>
+        <item >VACATION HOME</item>
+        <item>INSULATION</item>
+        <item>KITCHEN</item>
+        <item >GARDENFURNITURE</item>
+        
     </string-array>
     
     <!-- Nav Drawer List Item Icons -->
@@ -42,7 +48,12 @@
         <item>@drawable/ic_pages</item>
         <item>@drawable/ic_whats_hot</item>
         <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_people</item>
         <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_people</item>
         <item>@drawable/ic_communities</item>
     </array>
     

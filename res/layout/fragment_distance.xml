@@ -25,17 +25,7 @@
             android:layout_margin="10dp"
             >
        </TableLayout>
-        <Button 
-      	android:id="@+id/btn_submit_distance"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:background="@drawable/btn_red_bg"
-        android:text="Submit"
-        android:layout_above="@+id/btn_add_distance"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        android:layout_margin="10dp"
-        android:textAppearance="?android:attr/textAppearanceMedium"/>
+       
 	<Button 
 	    android:id="@+id/btn_add_distance"
 	    android:layout_height="wrap_content"
@@ -43,12 +33,31 @@
 	    android:background="@drawable/btn_red_bg"
 	    android:drawableLeft="@android:drawable/ic_menu_add"
 	    android:text="Add Location"
-	    android:textStyle="bold"
-	    android:layout_alignParentBottom="true"
+	    android:textStyle="bold"	   
 	    android:layout_margin="10dp"
 	    android:textColor="#FFFFFF"
 	    android:textAppearance="?android:attr/textAppearanceMedium"
 	    />
+	 <Button 
+      	android:id="@+id/btn_save_distance"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/btn_gray_bg"
+        android:text="@string/str_save"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+	 <Button 
+      	android:id="@+id/btn_next_to_room"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/btn_red_bg"
+        android:text="@string/str_next"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
        
     </LinearLayout>
     </ScrollView>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF"
+    >
+    
+    <ScrollView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:fillViewport="true"
+        >
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+        >
+    
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal"
+	    android:background="@drawable/heading_bg"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginTop="15dp"
+	    android:weightSum="10"
+	    android:gravity="center"
+	    >
+	    
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="8"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#565656"
+	        android:text="Insulation"
+	        android:paddingLeft="5dp"
+	        />
+	     <ImageButton 
+	         android:id="@+id/btn_add_insulation"
+	         android:layout_height="wrap_content"
+	         android:layout_width="0dp"
+	         android:layout_weight="2"
+	         android:src="@android:drawable/ic_menu_add"
+	         android:background="#00ffffff"
+	         />
+	    
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/ll_insulation"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="vertical"
+	    >    
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal"
+	    android:background="@drawable/heading_bg"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginTop="15dp"
+	    android:weightSum="10"
+	    android:gravity="center"
+	    >
+	    
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="8"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#565656"
+	        android:text="Heating(Primary Source)"
+	        android:paddingLeft="5dp"
+	        />
+	     <ImageButton 
+	         android:id="@+id/btn_add_heating_source"
+	         android:layout_height="wrap_content"
+	         android:layout_width="0dp"
+	         android:layout_weight="2"
+	         android:src="@android:drawable/ic_menu_add"
+	         android:background="#00ffffff"
+	         />
+	    
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id="@+id/ll_heating"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        ></LinearLayout>
+    
+    <LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal"
+	    android:background="@drawable/heading_bg"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginTop="15dp"
+	    android:weightSum="10"
+	    android:gravity="center"
+	    >
+	    
+	    <TextView 
+	        android:layout_height="wrap_content"
+	        android:layout_width="0dp"
+	        android:layout_weight="8"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#565656"
+	        android:text="Additional heating"
+	        android:paddingLeft="5dp"
+	        />
+	     <ImageButton 
+	         android:id="@+id/btn_add_additional_heating"
+	         android:layout_height="wrap_content"
+	         android:layout_width="0dp"
+	         android:layout_weight="2"
+	         android:src="@android:drawable/ic_menu_add"
+	         android:background="#00ffffff"
+	         />
+	    
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:id="@+id/ll_for_additional_heat"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        ></LinearLayout>
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:weightSum="10"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+     	<Button 
+         	android:id="@+id/btn_submit_contract"
+         	android:layout_height="wrap_content"
+         	android:layout_width="0dp"
+         	android:layout_weight="4"
+         	style="?android:attr/buttonBarButtonStyle" 
+         	android:background="@drawable/btn_red_bg"
+         	android:textColor="#FFFFFF"
+         	android:textStyle="bold"	
+         	android:text="@string/str_next"
+         	android:layout_marginRight="10dp"
+         	/>
+     	<Button 
+     	    android:id="@+id/btn_save_contract"
+         	android:layout_height="wrap_content"
+         	android:layout_width="0dp"
+         	android:layout_weight="4"
+         	style="?android:attr/buttonBarButtonStyle" 
+         	android:background="@drawable/btn_gray_bg"
+         	android:textColor="#000000"
+         	android:textStyle="bold"	
+         	android:text="@string/str_save"
+         	android:layout_marginLeft="10dp"         	
+     	    />
+     </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

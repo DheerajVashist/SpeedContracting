@@ -45,6 +45,7 @@
                 android:textColor="#565656" />
 
             <EditText
+                android:id="@+id/et_name_owner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7.5"
@@ -68,6 +69,7 @@
                 android:textColor="#565656" />
 
             <EditText
+                android:id="@+id/et_address_owner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7.5"
@@ -91,6 +93,7 @@
                 android:text="@string/str_town" />
 
             <EditText
+                android:id="@+id/et_town_owner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
@@ -108,6 +111,7 @@
                 android:text="@string/str_postal" />
 
             <EditText
+                android:id="@+id/et_postal_code_owner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="5.5"
@@ -130,6 +134,7 @@
                 android:text="@string/str_tel" />
 
             <EditText
+                android:id="@+id/et_tel_owner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
@@ -146,6 +151,7 @@
                 android:text="@string/str_mobile" />
 
             <EditText
+                android:id="@+id/et_mobile_owner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -173,6 +179,7 @@
                 />
 
             <EditText
+                android:id="@+id/et_mail_id_owner"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7.5"
@@ -214,6 +221,7 @@
                 android:textColor="#565656" />
 
             <EditText
+                android:id="@+id/et_name_contracter"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7.5"
@@ -237,6 +245,7 @@
                 android:textColor="#565656" />
 
             <EditText
+                android:id="@+id/et_address_contractor"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7.5"
@@ -260,6 +269,7 @@
                 android:text="@string/str_town" />
 
             <EditText
+                android:id="@+id/et_town_contractor"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
@@ -277,6 +287,7 @@
                 android:text="@string/str_postal" />
 
             <EditText
+                android:id="@+id/et_postal_contractor"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="5.5"
@@ -295,10 +306,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1.5"
                 android:textColor="#565656"
-                
                 android:text="@string/str_tel" />
 
             <EditText
+                android:id="@+id/et_tel_contractor"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
@@ -315,6 +326,7 @@
                 android:text="@string/str_mobile" />
 
             <EditText
+                android:id="@+id/et_mobile_contractor"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
@@ -323,83 +335,7 @@
 	
         </LinearLayout>
     
-           
-           <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/heading_bg"
-            android:paddingBottom="5dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="5dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Payment Details"
-            android:textColor="#e84c3d"
-            android:textStyle="bold" />
-          
-           <LinearLayout 
-            android:layout_height="wrap_content"
-            android:layout_width="fill_parent"
-            android:orientation="horizontal"
-            android:weightSum="10"
-            android:layout_margin="10dp"
-            >
-        <TextView 
-            android:text="Accoutn No.:"
-            android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="3.5"
-            android:textColor="#565656"
-            android:singleLine="true"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            />
-        <EditText 
-            android:id="@+id/et_ac_no"
-            android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="7"
-            android:background="@drawable/et_bg"
-            />
-        </LinearLayout>
-         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/heading_bg"
-            android:paddingBottom="5dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="5dp"
-            
-            android:text="Payment Detail"
-            android:textColor="#e84c3d"
-            android:textStyle="bold" />
-        <LinearLayout 
-            android:layout_height="wrap_content"
-            android:layout_width="fill_parent"
-            android:orientation="horizontal"
-            android:weightSum="10"
-            android:layout_margin="10dp"
-            >
-        <TextView 
-            android:text="Bank:"
-            android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="3.5"
-            android:textColor="#565656"
-            android:singleLine="true"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            />
-        <EditText 
-            android:id="@+id/et_bank_name"
-            android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            android:layout_weight="7"
-            android:background="@drawable/et_bg"
-            />
-        </LinearLayout>
-          <LinearLayout
+           <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -411,50 +347,125 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2.5"
-                android:text="@string/str_email"
+                android:textColor="#565656"
                 
-                android:textColor="#565656" />
+                android:text="@string/str_email"
+                />
 
             <EditText
+                android:id="@+id/et_mail_id_contractor"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="7.5"
                 android:background="@drawable/et_bg" />
         </LinearLayout>
+           <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/heading_bg"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Terms Of Payment"
+            android:textColor="#e84c3d"
+            android:textStyle="bold"              
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+          
+           <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp"
+            >
+        <TextView 
+            android:text="IBAN:"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3.5"
+            android:textColor="#565656"
+            android:singleLine="true"
+            />
+        <EditText 
+            android:id="@+id/et_iban_payment"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:background="@drawable/et_bg"
+            />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_margin="10dp"
+            >
+        <TextView 
+            android:text="SWIFT:"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3.5"
+            android:textColor="#565656"
+            android:singleLine="true"
+            />
+        <EditText 
+            android:id="@+id/et_swift_payment"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:background="@drawable/et_bg"
+            />
+        </LinearLayout>
+        
         <LinearLayout 
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:orientation="horizontal"
             android:gravity="center"
-            android:weightSum="10"
+            android:weightSum="12"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
             >
         <Button 
-            android:id="@+id/btn_submit"
+            android:id="@+id/btn_next_to_location"
             style="?android:attr/buttonBarStyle"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="3.5"
-            android:layout_marginRight="15dp"
+            android:layout_weight="4"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
-            android:background="@drawable/btn_red_bg"
-            
-            android:text="@string/str_submit"
+            android:background="@drawable/btn_red_bg"            
+            android:text="@string/str_next"
+            />
+        <Button 
+            android:id="@+id/btn_save"
+            style="?android:attr/buttonBarStyle"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:background="@drawable/btn_gray_bg"            
+            android:text="@string/str_save"
             />
         <Button 
             android:id="@+id/btn_clear"
             style="?android:attr/buttonBarStyle"
             android:layout_height="wrap_content"
-            android:layout_width="0dp"
-            
-            android:layout_weight="3.5"
+            android:layout_width="0dp"            
+            android:layout_weight="4"
             android:textStyle="bold"
-            android:background="@drawable/btn_gray_bg"
-            android:layout_marginLeft="15dp"
+            android:background="@drawable/btn_red_bg"            
             android:text="@string/str_clear"
+            android:textColor="#FFFFFF"
             />
         		
         </LinearLayout>

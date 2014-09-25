@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">    
+	
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        >
+        <TextView 
+            android:id="@+id/tv_parking_space"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Parking Space"
+            android:background="@drawable/heading_bg"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#565656"
+            android:paddingLeft="5dp"
+            />
+        <LinearLayout 
+            android:id="@+id/ll_of_ch_box"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            >
+         <CheckBox 
+             android:id="@+id/ch_bx_carport"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:text="Carport"
+             />
+           <CheckBox 
+             android:id="@+id/ch_bx_garage"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:text="Garage"
+             />
+             <CheckBox 
+             android:id="@+id/ch_bx_park_on_plot"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:text="Parking on the plot"
+             />
+               <CheckBox 
+             android:id="@+id/ch_bx_parking_street"
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:text="Parking in the street"
+             />
+         </LinearLayout>
+         <LinearLayout 
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             android:weightSum="10"
+             android:orientation="horizontal"
+             android:gravity="center"
+             >
+         <Button 
+             android:id="@+id/btn_add_parking_detail"
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:layout_weight="6"
+             android:text="Add more detail"
+             android:background="@drawable/btn_gray_bg"
+             android:drawableLeft="@android:drawable/ic_menu_add"
+             />      
+        </LinearLayout>
+    </LinearLayout>
+    
+</RelativeLayout>

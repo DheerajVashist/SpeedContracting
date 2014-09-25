@@ -1,9 +1,9 @@
 package com.techila.speedcontracting.adapter;
 
-import info.androidhive.slidingmenu.R;
 
 import java.util.ArrayList;
 
+import com.techila.speedcontracting.R;
 import com.techila.speedcontracting.pojo.ContractModel;
 
 import android.content.Context;
